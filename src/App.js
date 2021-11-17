@@ -3,7 +3,7 @@ import Header from "./components/header/index";
 import Sidebar from "./components/sidebar/index";
 import Feed from "./components/feed/index";
 import Widgets from "./components/widgets/index";
-
+import Profile from "./components/pages/profile/index";
 
 import {
   BrowserRouter as Router,
@@ -26,8 +26,9 @@ function App() {
             </div>
           </Route>
           <Route exact path="/profile">
-          <Header></Header>
-            <div>Profile Page</div>
+              <Header></Header>
+              <Profile /> 
+            <div></div>
           </Route>
         </Switch>
       </Router>
