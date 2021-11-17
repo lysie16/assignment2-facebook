@@ -1,0 +1,23 @@
+
+.headercover {
+padding-left: 175px;
+padding-right: 175px;
+padding-bottom: 170px;
+display: flex;
+position: sticky;
+background-color:white;
+}
+
+.header__photo {
+    width: 150rem;
+    height: 16rem;
+    border-radius: 10px;
+    background-color: rgb(230, 230, 230);
+    display: flex;
+}
+
+
+.headerc__info {
+    align-items:center;
+    justify-content: center;
+}
