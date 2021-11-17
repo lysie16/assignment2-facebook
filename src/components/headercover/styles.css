@@ -2,7 +2,7 @@
 .headercover {
 padding-left: 175px;
 padding-right: 175px;
-padding-bottom: 170px;
+padding-bottom: 0px;
 display: flex;
 position: sticky;
 background-color:white;
@@ -14,10 +14,16 @@ background-color:white;
     border-radius: 10px;
     background-color: rgb(230, 230, 230);
     display: flex;
+    align-content: center;
 }
 
+.header__photo > img {
+    width: 100%;
+    height: 16rem;
+    display:flex;
+    border-radius:10px;
+}
 
-.headerc__info {
-    align-items:center;
-    justify-content: center;
+.headerc__middle {
+    align-content: center;
 }

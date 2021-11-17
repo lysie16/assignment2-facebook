@@ -1,77 +1,149 @@
-.profileSidebar {
+
+.profile {
+    background-color: white;
+}
+
+.profile__user{
+    justify-content: center;
     display: flex;
-    flex-direction: column;
-    margin-top: 20px;
-    flex: 0.4;
-    margin-bottom: 30px;
 }
 
-.photos {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    margin-right: 10px;
-}
-
-.posts2 {
-    background-color: #949494;
-    border-radius: 10px;
-    margin-left: 40%;
-    margin-bottom: 10px;
-}
-
-.posts2 h1 {
-    font-size: 20px;
-    color: #e4e6eb;
-    font-weight: 700;
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-
-.policies.profile {
-    margin-left: 50%;
-}
-
-.hr.profile {
-    margin-left: 50%;
-}
-
-.photos img {
-    margin-left: 10px;
-    margin-bottom: 10px;
-    transition: 0.2s !important;
-    height: 70px;
-    width: auto;
-}
-
-.photos img:hover {
-    border-radius: 0 !important;
-    opacity: 0.8
-}
-
-.introblock {
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 10px;
-}
-
-.birthday {
-    height: 25px;
-    width: 25px;
-    margin-left: 10px;
-    margin-top: 10px;
-    filter: brightness(60%);
-}
-
-.introblock h1 {
-    margin: 0;
-    margin-left: 10px;
-    margin-top: 10px;
+.bio {
+    text-align: center;
+    color: #2e89ff;
     font-size: 15px;
-    font-weight: 600;
-    color: #e4e6eb;
+    padding-bottom: 10px;
 }
 
-.introblock h1:hover {
+.bio:hover {
     text-decoration: underline;
     cursor: pointer;
 }
+
+.profile__topSection h1 {
+    text-align: center;
+    font-size: 32px;
+    color: white;
+    font-weight: 700;
+}
+
+.profile__coverPhoto {
+    margin-left: 15%;
+    margin-right: 15%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    z-index: 0;
+}
+
+.hr4 {
+    height: 1px;
+    width: 75rem;
+    background-color: #717274;
+    align-items: center;
+    margin-left: 150px;
+    margin-right: 150px;
+    display:flex;
+}
+
+.profileHeader__options {
+    display: flex;
+    flex-direction: row;
+}
+
+.profileHeader__left ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.profileHeader__left ul li {
+    margin: 0;
+    font-size: 15px;
+    color: #b0b3b8;
+    font-weight: 600;
+    border-radius: 5px !important;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    display:flex;
+}
+
+.profileHeader__left ul li:hover {
+    background-color: rgb(228, 228, 228) !important;
+}
+
+
+
+.profileHeader__left ul .selected {
+    color: #2E89FF;
+    border-radius: 0px !important;
+    border-bottom: 3px solid #2E89FF;
+    margin-bottom: 0px !important;
+}
+
+.profileHeader__left ul .selected:hover {
+    background-color: transparent !important;
+}
+
+.profileHeader__options {
+    display: flex;
+    flex-direction: row;
+}
+
+.profileHeader__left ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.profileHeader__left ul li {
+    margin: 0;
+    font-size: 15px;
+    color: #b0b3b8;
+    font-weight: 600;
+    border-radius: 5px !important;
+    margin-bottom: 10px;
+}
+
+.profileHeader__left ul li:hover {
+    background-color: #3A3B3C !important;
+}
+
+
+
+.profileHeader__left ul .selected {
+color: #2E89FF;
+border-radius: 0px !important;
+border-bottom: 3px solid #2E89FF;
+margin-left: 45%;
+margin-bottom: 0px !important;
+}
+
+.profileHeader__left ul .selected:hover {
+    background-color: transparent !important;
+}
+
+.rect img {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+    -webkit-filter: invert(100%);
+}
+
+.rect {
+    background-color: #3A3B3C;
+    padding-right: 5px;
+    border-radius: 10px;
+    margin-bottom: 25px !important;
+    margin-left: 10px !important;
+}
+
+
+.rect p {
+    color:black;
+    width: 80px;
+}
+
+.rect.addFriend {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+
