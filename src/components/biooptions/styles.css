@@ -1,0 +1,25 @@
+.bio_options {
+    align-content: center;
+    display:flex;
+    justify-content: space-between; 
+    padding-top: 10px;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.bio_icons {
+    align-content: center;
+    display:flex;
+    justify-content: space-evenly; 
+    padding-top: 10px;
+}
+
+.bio_icons:hover {
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+
+.bio_icons:hover {
+    color: #2e81f4;
+}
